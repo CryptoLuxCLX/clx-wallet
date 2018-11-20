@@ -1,0 +1,26 @@
+obj/rpcwallet.o: rpcwallet.cpp wallet.h main.h bignum.h serialize.h \
+ allocators.h version.h clientversion.h uint256.h sync.h threadsafety.h \
+ net.h mruset.h netbase.h compat.h protocol.h addrman.h util.h script.h \
+ keystore.h crypter.h key.h scrypt.h zerocoin/Zerocoin.h \
+ zerocoin/../serialize.h zerocoin/../bignum.h zerocoin/../util.h \
+ zerocoin/Params.h zerocoin/Coin.h zerocoin/Commitment.h \
+ zerocoin/Accumulator.h zerocoin/AccumulatorProofOfKnowledge.h \
+ zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h \
+ zerocoin/SpendMetaData.h zerocoin/../uint256.h \
+ zerocoin/ParamGeneration.h ui_interface.h walletdb.h db.h base58.h \
+ bitcoinrpc.h json/json_spirit_reader_template.h json/json_spirit_value.h \
+ json/json_spirit_error_position.h json/json_spirit_writer_template.h \
+ json/json_spirit_utils.h checkpoints.h init.h
+rpcwallet.cpp wallet.h main.h bignum.h serialize.h :
+ allocators.h version.h clientversion.h uint256.h sync.h threadsafety.h :
+ net.h mruset.h netbase.h compat.h protocol.h addrman.h util.h script.h :
+ keystore.h crypter.h key.h scrypt.h zerocoin/Zerocoin.h :
+ zerocoin/../serialize.h zerocoin/../bignum.h zerocoin/../util.h :
+ zerocoin/Params.h zerocoin/Coin.h zerocoin/Commitment.h :
+ zerocoin/Accumulator.h zerocoin/AccumulatorProofOfKnowledge.h :
+ zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h :
+ zerocoin/SpendMetaData.h zerocoin/../uint256.h :
+ zerocoin/ParamGeneration.h ui_interface.h walletdb.h db.h base58.h :
+ bitcoinrpc.h json/json_spirit_reader_template.h json/json_spirit_value.h :
+ json/json_spirit_error_position.h json/json_spirit_writer_template.h :
+ json/json_spirit_utils.h checkpoints.h init.h :

@@ -1,0 +1,18 @@
+obj/zerocoin/ZeroTest.o: zerocoin/ZeroTest.cpp zerocoin/Zerocoin.h \
+ zerocoin/../serialize.h zerocoin/../allocators.h zerocoin/../version.h \
+ zerocoin/../clientversion.h zerocoin/../bignum.h zerocoin/../serialize.h \
+ zerocoin/../uint256.h zerocoin/../util.h zerocoin/../netbase.h \
+ zerocoin/../compat.h zerocoin/Params.h zerocoin/Coin.h \
+ zerocoin/Commitment.h zerocoin/Accumulator.h \
+ zerocoin/AccumulatorProofOfKnowledge.h zerocoin/CoinSpend.h \
+ zerocoin/SerialNumberSignatureOfKnowledge.h zerocoin/SpendMetaData.h \
+ zerocoin/../uint256.h zerocoin/ParamGeneration.h
+zerocoin/ZeroTest.cpp zerocoin/Zerocoin.h :
+ zerocoin/../serialize.h zerocoin/../allocators.h zerocoin/../version.h :
+ zerocoin/../clientversion.h zerocoin/../bignum.h zerocoin/../serialize.h :
+ zerocoin/../uint256.h zerocoin/../util.h zerocoin/../netbase.h :
+ zerocoin/../compat.h zerocoin/Params.h zerocoin/Coin.h :
+ zerocoin/Commitment.h zerocoin/Accumulator.h :
+ zerocoin/AccumulatorProofOfKnowledge.h zerocoin/CoinSpend.h :
+ zerocoin/SerialNumberSignatureOfKnowledge.h zerocoin/SpendMetaData.h :
+ zerocoin/../uint256.h zerocoin/ParamGeneration.h :

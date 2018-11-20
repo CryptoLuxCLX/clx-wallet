@@ -1,0 +1,34 @@
+obj/main.o: main.cpp alert.h uint256.h util.h netbase.h serialize.h \
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h \
+ mruset.h protocol.h addrman.h sync.h threadsafety.h db.h main.h bignum.h \
+ script.h keystore.h crypter.h key.h scrypt.h zerocoin/Zerocoin.h \
+ zerocoin/../serialize.h zerocoin/../bignum.h zerocoin/../util.h \
+ zerocoin/Params.h zerocoin/Coin.h zerocoin/Commitment.h \
+ zerocoin/Accumulator.h zerocoin/AccumulatorProofOfKnowledge.h \
+ zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h \
+ zerocoin/SpendMetaData.h zerocoin/../uint256.h \
+ zerocoin/ParamGeneration.h txdb.h txdb-leveldb.h \
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/db.h \
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/iterator.h \
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/slice.h \
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/status.h \
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/options.h \
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/write_batch.h \
+ init.h wallet.h ui_interface.h walletdb.h base58.h kernel.h
+main.cpp alert.h uint256.h util.h netbase.h serialize.h :
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h :
+ mruset.h protocol.h addrman.h sync.h threadsafety.h db.h main.h bignum.h :
+ script.h keystore.h crypter.h key.h scrypt.h zerocoin/Zerocoin.h :
+ zerocoin/../serialize.h zerocoin/../bignum.h zerocoin/../util.h :
+ zerocoin/Params.h zerocoin/Coin.h zerocoin/Commitment.h :
+ zerocoin/Accumulator.h zerocoin/AccumulatorProofOfKnowledge.h :
+ zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h :
+ zerocoin/SpendMetaData.h zerocoin/../uint256.h :
+ zerocoin/ParamGeneration.h txdb.h txdb-leveldb.h :
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/db.h :
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/iterator.h :
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/slice.h :
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/status.h :
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/options.h :
+ /home/user/-lab/cryptolux-Lab/src/leveldb/include/leveldb/write_batch.h :
+ init.h wallet.h ui_interface.h walletdb.h base58.h kernel.h :
