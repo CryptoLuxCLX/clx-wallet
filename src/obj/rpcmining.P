@@ -7,14 +7,13 @@ obj/rpcmining.o: rpcmining.cpp main.h bignum.h serialize.h allocators.h \
  zerocoin/AccumulatorProofOfKnowledge.h zerocoin/CoinSpend.h \
  zerocoin/SerialNumberSignatureOfKnowledge.h zerocoin/SpendMetaData.h \
  zerocoin/../uint256.h zerocoin/ParamGeneration.h db.h txdb.h \
- txdb-leveldb.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/db.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/iterator.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/slice.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/status.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/options.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/write_batch.h \
- init.h wallet.h ui_interface.h walletdb.h base58.h miner.h bitcoinrpc.h \
+ txdb-leveldb.h /root/cryptolux/src/leveldb/include/leveldb/db.h \
+ /root/cryptolux/src/leveldb/include/leveldb/iterator.h \
+ /root/cryptolux/src/leveldb/include/leveldb/slice.h \
+ /root/cryptolux/src/leveldb/include/leveldb/status.h \
+ /root/cryptolux/src/leveldb/include/leveldb/options.h \
+ /root/cryptolux/src/leveldb/include/leveldb/write_batch.h init.h \
+ wallet.h ui_interface.h walletdb.h base58.h miner.h bitcoinrpc.h \
  json/json_spirit_reader_template.h json/json_spirit_value.h \
  json/json_spirit_error_position.h json/json_spirit_writer_template.h \
  json/json_spirit_utils.h checkpoints.h
@@ -27,14 +26,13 @@ rpcmining.cpp main.h bignum.h serialize.h allocators.h :
  zerocoin/AccumulatorProofOfKnowledge.h zerocoin/CoinSpend.h :
  zerocoin/SerialNumberSignatureOfKnowledge.h zerocoin/SpendMetaData.h :
  zerocoin/../uint256.h zerocoin/ParamGeneration.h db.h txdb.h :
- txdb-leveldb.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/db.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/iterator.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/slice.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/status.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/options.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/write_batch.h :
- init.h wallet.h ui_interface.h walletdb.h base58.h miner.h bitcoinrpc.h :
+ txdb-leveldb.h /root/cryptolux/src/leveldb/include/leveldb/db.h :
+ /root/cryptolux/src/leveldb/include/leveldb/iterator.h :
+ /root/cryptolux/src/leveldb/include/leveldb/slice.h :
+ /root/cryptolux/src/leveldb/include/leveldb/status.h :
+ /root/cryptolux/src/leveldb/include/leveldb/options.h :
+ /root/cryptolux/src/leveldb/include/leveldb/write_batch.h init.h :
+ wallet.h ui_interface.h walletdb.h base58.h miner.h bitcoinrpc.h :
  json/json_spirit_reader_template.h json/json_spirit_value.h :
  json/json_spirit_error_position.h json/json_spirit_writer_template.h :
  json/json_spirit_utils.h checkpoints.h :

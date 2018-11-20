@@ -8,12 +8,12 @@ obj/kernel.o: kernel.cpp kernel.h main.h bignum.h serialize.h \
  zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h \
  zerocoin/SpendMetaData.h zerocoin/../uint256.h \
  zerocoin/ParamGeneration.h txdb.h txdb-leveldb.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/db.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/iterator.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/slice.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/status.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/options.h \
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/write_batch.h
+ /root/cryptolux/src/leveldb/include/leveldb/db.h \
+ /root/cryptolux/src/leveldb/include/leveldb/iterator.h \
+ /root/cryptolux/src/leveldb/include/leveldb/slice.h \
+ /root/cryptolux/src/leveldb/include/leveldb/status.h \
+ /root/cryptolux/src/leveldb/include/leveldb/options.h \
+ /root/cryptolux/src/leveldb/include/leveldb/write_batch.h
 kernel.cpp kernel.h main.h bignum.h serialize.h :
  allocators.h version.h clientversion.h uint256.h sync.h threadsafety.h :
  net.h mruset.h netbase.h compat.h protocol.h addrman.h util.h script.h :
@@ -24,9 +24,9 @@ kernel.cpp kernel.h main.h bignum.h serialize.h :
  zerocoin/CoinSpend.h zerocoin/SerialNumberSignatureOfKnowledge.h :
  zerocoin/SpendMetaData.h zerocoin/../uint256.h :
  zerocoin/ParamGeneration.h txdb.h txdb-leveldb.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/db.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/iterator.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/slice.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/status.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/options.h :
- /home/redroot/Coin/Cryptolux/source/src/leveldb/include/leveldb/write_batch.h :
+ /root/cryptolux/src/leveldb/include/leveldb/db.h :
+ /root/cryptolux/src/leveldb/include/leveldb/iterator.h :
+ /root/cryptolux/src/leveldb/include/leveldb/slice.h :
+ /root/cryptolux/src/leveldb/include/leveldb/status.h :
+ /root/cryptolux/src/leveldb/include/leveldb/options.h :
+ /root/cryptolux/src/leveldb/include/leveldb/write_batch.h :
